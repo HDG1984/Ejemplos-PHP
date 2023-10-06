@@ -1,0 +1,35 @@
+<table border="1" style=" margin: 0 auto">
+    <tr>
+        <th>ID</th>
+        <th>Código</th>
+        <th>Descripción</th>
+        <th>Precio</th>
+        <th>Stock</th>
+        <th>Operaciones</th>
+    </tr>
+    {foreach $productos as $producto}
+    <tr>
+        <td>{$producto->getId()}</td>
+        <td>{$producto->getCod()}</td>
+        <td>{$producto->getDesc()}</td>
+        <td>{$producto->getPrecio()}</td>
+        <td>{$producto->getStock()}</td>
+        <td>
+            <form method="post" action="/DWES04/editarproducto ">
+                <button type="submit">Editar</button>
+            </form>
+            <form method="post" action="/DWES04/borrarproducto">  
+                <button type="submit">Borrar</button>
+            </form>
+        </td>
+        
+    </tr>
+    {/foreach}
+    <tr>
+        <td colspan="6" style="text-align:center;">
+            <form method="post" action="/DWES04/nuevoproducto"> 
+                  <button type="submit">Nuevo producto</button>
+            </form>
+        </td>
+    </tr>
+</table>

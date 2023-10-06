@@ -1,0 +1,20 @@
+{
+    "name": "hdg61/proyecto-composer",
+    "description": "Ejemplo de proyecto con composer",
+    "type": "project",
+    "license": "propietary",
+    "autoload": {
+        "psr-4": {
+            "Hdg61\\ProyectoComposer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "hdg"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "monolog/monolog": "2.8.0"
+    }
+}

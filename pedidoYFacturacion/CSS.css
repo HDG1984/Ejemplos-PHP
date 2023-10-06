@@ -1,0 +1,115 @@
+.tabla{
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+a{
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0; 
+}
+a:link {
+    color: orange;
+}
+a:visited {
+    color: gray;
+}
+a:focus {
+    border-bottom: 1px solid;
+    background: #85929E;
+}
+a:hover {
+    border-bottom: 1px solid;
+    background: #E5E4E1;
+}
+a:active {
+    background: #F5E78F;
+    color: #FCF3CF;
+}
+th{
+    background-color: gray;
+    color: white;
+}
+td,th{
+    border: 2px solid black;
+}
+
+
+@keyframes blink{
+    50%{
+        opacity: 0
+    }
+
+}
+h3{
+    text-align: center;
+    padding: 50px;
+    font-family: sans-serif;
+    color: skyblue;
+    animation: blink 1s linear infinite;
+}
+.label1{
+    position: absolute;
+    left: 230px;
+    font-size: 18px;
+    font-weight:bold;
+    
+}
+.label2{
+    position: absolute;
+    left: 580px;
+    font-size: 18px;
+    font-weight:bold; 
+}
+select{
+    width: 500px;
+}
+.posicionBoton{
+    text-align:center;
+}
+.tFactura{
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+
+}
+.thf{
+    background-color: #E59866;
+    color: black;
+    border: 2px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.td1{
+    border: 2px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.td2{
+    border: 2px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #F5B286;
+}
+.h4C{
+    position: relative;
+    left: 380px;
+}
+.h4F{
+    position: relative;
+    left: 380px;
+}
+.aVolver{
+    position: relative;
+    left: 380px;
+}

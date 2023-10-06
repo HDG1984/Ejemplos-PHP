@@ -1,0 +1,20 @@
+{
+    "name": "heliodiazgutierrez/tarea4",
+    "description": "Proyecto Tema 4",
+    "type": "project",
+    "license": "propietary",
+    "autoload": {
+        "psr-4": {
+            "Heliodiazgutierrez\\Tarea4\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Helio Díaz Gutiérrez"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "smarty/smarty": "^4.3"
+    }
+}

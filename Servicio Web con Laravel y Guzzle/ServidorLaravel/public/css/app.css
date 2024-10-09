@@ -1,0 +1,153 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+ th {
+    background-color: #626161;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    color: white;
+}
+
+
+ td {
+    border: 1px solid #ddd;
+    padding: 10px;
+
+}
+
+
+ tr:nth-child(even) {
+    background-color: #f2f2f2;  
+}
+
+.formulario {
+    width: 100%;
+    max-width: 400px; 
+    margin: 0 auto; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; 
+}
+
+
+.formulario input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+.formulario .checkbox-group {
+    margin-bottom: 15px;
+}
+
+.formulario .checkbox-group label {
+    margin-right: 10px;
+}
+
+
+.formulario input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilo para el título */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.correcto{
+    color: rgb(104, 164, 14);
+}
+
+.error{
+    color: red;
+}
+
+.div_detallesubicacion{
+    background-color: #c6c1c1;
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    align-items: center;
+  
+}
+
+.div_detallesubicacion input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+   
+    background-color: #525353;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.div_detallesubicacion form{
+    margin: 20px;
+}
+
+.enlace_form{
+    text-decoration: none;
+    padding: 10px;
+   
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.div_enlaces{
+    display: flex;
+    flex-flow: row wrap;
+   
+    justify-content:space-evenly;
+}
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:baseline;
+    background-image: url('../img/img_header.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+
+.logo{
+    margin-top: 50px;
+}
+
+.principal a{
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #f5742f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

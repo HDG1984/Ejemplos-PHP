@@ -1,0 +1,20 @@
+{
+    "name": "hdg61/dwes06",
+    "description": "Proyecto composer",
+    "type": "project",
+    "license": "propietary",
+    "autoload": {
+        "psr-4": {
+            "Hdg61\\Dwes06\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Helio Díaz"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "8.0.x-dev"
+    }
+}
